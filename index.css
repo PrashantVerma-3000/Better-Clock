@@ -4,7 +4,6 @@
   background-image: url("clock.png");
   background-size: 100%;
   margin: auto;
-  /* border: 10px black solid; */
   position: relative;
 }
 .second,
@@ -13,10 +12,8 @@
   position: absolute;
   background-color: black;
   border: 10px;
-  /* opacity: 0.8; */
   transform-origin: center bottom;
   border-radius: 5px;
-/*   z-index: 1; */
 }
 .second {
   width: 0.5%;
@@ -24,23 +21,19 @@
   bottom: 50%;
   left: 49.7%;
   background-color: red;
-  /* display: none; */
 }
 .minute {
   width: 1.5%;
   height: 35%;
   bottom: 50%;
   left: 49.1%;
-  /* display: none; */
   background-color: green;
-/*   z-index: 2; */
 }
 .hour {
   width: 1.5%;
   height: 25%;
   bottom: 50%;
   left: 49.15%;
-  /* display: none; */
   background-color: blue;
 }
 .cover {
@@ -51,5 +44,4 @@
   height: 8%;
   background-color: black;
   border-radius: 50%;
-/*    z-index: 100; */
 }
